@@ -15,13 +15,13 @@
   "bugs": {
     "url": "https://github.com/Sergetexa/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/Sergetexa/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/Sergetexa/frontend-project-lvl1#readme",
   
-  "type": "module"
+  "type": "module",
   
   "bin": {
   "brain-games": "bin/brain-games.js"
-}
+  }
 
 
 }
