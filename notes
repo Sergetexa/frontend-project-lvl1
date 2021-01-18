@@ -1,0 +1,12 @@
+1. Ustaljavac cmder z padtrymkaj git.
+2. Ustaljavac Visual Studio Code.
+3. Ustaljavac Node.js z node.org.
+4. Clanavac repazitajy: git clone https://github.com/Sergetexa/frontend-project-lvl1.
+5. Инициализируйте ваш npm-пакет внутри корневой директории проекта, используя команду npm init. При инициализации задайте имя пакета - @hexlet/code.
+   Создайте директорию bin и добавьте в неё файл brain-games.js.
+6. Код, лежащий на гитхабе – это уже хорошо, но ещё недостаточно для того, чтобы другие могли им воспользоваться. Одной из функций npm является публикация (обновление) пакетов в                npm-репозитории. NPM – это большой каталог JS-пакетов. Каждый раз, когда вы набираете npm install <package>, идёт установка именно из этого каталога.
+   Для отладки публикации не нужно добавлять пакет в основной каталог NPM. На протяжении всего проекта используйте аргумент --dry-run, чтобы не засорять общее хранилище учебными пакетами.      Таким способом вы убедитесь, что правильно настроили свой пакет.
+   Для установки пакета из операционной системы, используйте команду npm link. Её необходимо запускать из корневой директории проекта.
+   
+   npm install readline-sync - ustaljouvae bibl u rasdzel node-modules. Jae mozhna vykarystouvac praz import readlineSync from 'readline-sync';
+7. Zapuskaem praz brain-games z d:\GitSite\frontend-project-lvl1. Kali z d:\GitSite\frontend-project-lvl1\bin - Sintaks. pamylka u Windows Script Host???
