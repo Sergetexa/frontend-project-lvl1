@@ -13,18 +13,8 @@ const yearSquared = square(5);
 console.log(yearSquared);
 //----------------------------------------------
 
-
-import readlineSync from 'readline-sync';
-const name = readlineSync.question('May I Have Your Name: ');
-console.log("Hello Dear", name, "!!!");
-
-//import hello from 'cli.js';
-//hello;
-
-
-
-
-
+import {hello} from './cli.js';
+hello();
 
 
 
